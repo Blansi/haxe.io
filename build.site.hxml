@@ -1,0 +1,17 @@
+-cp src-site
+
+-lib hxnodejs
+-lib express
+# Needs git version.
+-lib ufront-mvc
+
+-lib media-types
+
+-D debug
+#-dce full
+
+--each
+
+-D server
+-main Server
+-js www/server.js
